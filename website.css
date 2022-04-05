@@ -1,0 +1,108 @@
+.container{
+    align-items: center;
+    border: none;
+    left: 50%;
+    margin-top: 70px;
+    
+}
+
+topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav {
+    background-color: rgb(2, 74, 88);
+    overflow: hidden;
+    width: 100%;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    margin-bottom: 20px;
+    align-items: center;
+    position: fixed;
+    height: 60px;
+
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 18.5%; 
+    height: 60px;
+    z-index:1; /* Stay on top */
+    top:0; /* Stay at the top */ 
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #408c9b;
+    color: white;
+  }
+  
+  .sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+     /* Stay on top */
+    top: 65px; /* Stay at the top */
+    left: 10;
+    background-color: rgb(2, 74, 88); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav button {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+    background-color: rgb(2, 74, 88);
+    border: none;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav button:hover {
+    color: #c7c1c1;
+    
+  }   
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    
+  }
+.div_{
+background-color: rgb(238, 243, 245);
+text-align: center;
+left:50%;
+-ms-transform: translateX(45%);
+transform: translateX(45%);
+width:50%;
+margin-bottom:30px;
+height:50%;
+padding:10px;
+-webkit-box-shadow: 1px 5px 20px 9px #DCDEE0; 
+box-shadow: 1px 5px 20px 9px #DCDEE0;
+}
