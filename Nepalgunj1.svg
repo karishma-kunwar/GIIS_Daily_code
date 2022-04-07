@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 700 500" style="" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip21ba15xyplot" class="plotclip">
+      <rect width="475" height="102.85000000000001"/>
+    </clipPath>
+    <clipPath id="clip21ba15x2y2plot" class="plotclip">
+      <rect width="475" height="102.85"/>
+    </clipPath>
+    <clipPath id="legend21ba15">
+      <rect width="298" height="124" x="0" y="0"/>
+    </clipPath>
+  </defs>
+  <rect x="4.075" y="-1.164" width="700" height="500" style="fill: rgb(255, 255, 255); fill-opacity: 1;"/>
+  <g class="bglayer"/>
+  <g class="layer-below">
+    <g class="imagelayer"/>
+    <g class="shapelayer"/>
+  </g>
+  <g class="cartesianlayer">
+    <g class="subplot xy">
+      <g class="layer-subplot">
+        <g class="shapelayer"/>
+        <g class="imagelayer"/>
+      </g>
+      <g class="gridlayer">
+        <g class="x"/>
+        <g class="y"/>
+      </g>
+      <g class="zerolinelayer">
+        <path class="xzl zl crisp" transform="translate(145,0)" d="M0,100v102.85000000000001" style="stroke: rgb(235, 240, 248); stroke-opacity: 1; stroke-width: 2px;"/>
+      </g>
+      <path class="xlines-below"/>
+      <path class="ylines-below"/>
+      <g class="overlines-below"/>
+      <g class="xaxislayer-below"/>
+      <g class="yaxislayer-below"/>
+      <g class="overaxes-below"/>
+      <g class="plot" transform="translate(145,100)" clip-path="url(#clip21ba15xyplot)">
+        <g class="barlayer mlayer">
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M0,77.14V25.71H156.96V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(33, 89, 57); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(149.7725,55.925)">8</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M156.96,77.14V25.71H294.29V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(235, 55, 42); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(287.1025,55.925)">7</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M294.29,77.14V25.71H353.15V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(140, 92, 166); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(346.321875,55.925)">3</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M353.15,77.14V25.71H412.01V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(247, 152, 12); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(405.181875,55.925)">3</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M412.01,77.14V25.71H451.25V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(66, 154, 237); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(444.0625,55.925)">2</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M451.25,77.14V25.71H451.25V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(152, 152, 152); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="overplot"/>
+      <path class="xlines-above crisp" d="M0,0" style="fill: none;"/>
+      <path class="ylines-above crisp" d="M0,0" style="fill: none;"/>
+      <g class="overlines-above"/>
+      <g class="xaxislayer-above"/>
+      <g class="yaxislayer-above">
+        <g class="ytick">
+          <text text-anchor="end" x="144" y="4.199999999999999" transform="matrix(1, 0.009732, 0, 1, 0, 150.662567)" style="font-family: &quot;Open Sans&quot;, verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre; opacity: 1;">जितेको वडाको संख्या</text>
+        </g>
+      </g>
+      <g class="overaxes-above"/>
+    </g>
+    <g class="subplot x2y2">
+      <g class="layer-subplot">
+        <g class="shapelayer"/>
+        <g class="imagelayer"/>
+      </g>
+      <g class="gridlayer">
+        <g class="x2"/>
+        <g class="y2"/>
+      </g>
+      <g class="zerolinelayer">
+        <path class="x2zl zl crisp" transform="translate(145,0)" d="M0,239.14999999999998v102.85" style="stroke: rgb(235, 240, 248); stroke-opacity: 1; stroke-width: 2px;"/>
+      </g>
+      <path class="xlines-below"/>
+      <path class="ylines-below"/>
+      <g class="overlines-below"/>
+      <g class="xaxislayer-below"/>
+      <g class="yaxislayer-below"/>
+      <g class="overaxes-below"/>
+      <g class="plot" transform="translate(145,239.14999999999998)" clip-path="url(#clip21ba15x2y2plot)">
+        <g class="barlayer mlayer">
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M0,77.14V25.71H109.17V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(33, 89, 57); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(84.529375,55.925)">10,194</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M109.17,77.14V25.71H203.15V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(235, 55, 42); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(182.3375,55.925)">8,775</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M203.15,77.14V25.71H286.69V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(140, 92, 166); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(265.8775,55.925)">7,800</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M286.69,77.14V25.71H369.1V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(247, 152, 12); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(348.2875,55.925)">7,695</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M369.1,77.14V25.71H421.39V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(66, 154, 237); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(400.936875,55.925)">4,883</text>
+              </g>
+            </g>
+          </g>
+          <g class="trace bars" shape-rendering="crispEdges" style="opacity: 1;">
+            <g class="points">
+              <g class="point">
+                <path d="M421.39,77.14V25.71H451.25V77.14Z" style="vector-effect: non-scaling-stroke; opacity: 1; stroke-width: 0.5px; fill: rgb(152, 152, 152); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                <text class="bartext bartext-inside" text-anchor="middle" data-notex="1" x="0" y="0" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(255, 255, 255); fill-opacity: 1; white-space: pre;" transform="translate(440.5703125,55.925)rotate(90 0.1796875 -4.5)">2,788</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="overplot"/>
+      <path class="xlines-above crisp" d="M0,0" style="fill: none;"/>
+      <path class="ylines-above crisp" d="M0,0" style="fill: none;"/>
+      <g class="overlines-above"/>
+      <g class="xaxislayer-above"/>
+      <g class="yaxislayer-above">
+        <g class="y2tick">
+          <text text-anchor="end" x="144" y="4.199999999999999" transform="translate(0,290.58)" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre; opacity: 1;">सबै वडाबाट जम्मा प्राप्त मत</text>
+        </g>
+      </g>
+      <g class="overaxes-above"/>
+    </g>
+  </g>
+  <g class="polarlayer"/>
+  <g class="smithlayer"/>
+  <g class="ternarylayer"/>
+  <g class="geolayer"/>
+  <g class="funnelarealayer"/>
+  <g class="pielayer"/>
+  <g class="iciclelayer"/>
+  <g class="treemaplayer"/>
+  <g class="sunburstlayer"/>
+  <g class="glimages"/>
+  <g class="layer-above">
+    <g class="imagelayer"/>
+    <g class="shapelayer"/>
+  </g>
+  <g class="infolayer">
+    <g class="legend" pointer-events="all" transform="translate(84.5,363.20000000000005)">
+      <rect class="bg" shape-rendering="crispEdges" style="stroke: rgb(68, 68, 68); stroke-opacity: 1; fill: rgb(255, 255, 255); fill-opacity: 1; stroke-width: 0px;" width="298" height="124" x="0" y="0"/>
+      <g class="scrollbox" transform="" clip-path="url(#legend21ba15)">
+        <g class="groups">
+          <g class="traces" transform="translate(0,14.5)" style="opacity: 1;">
+            <text class="legendtext" text-anchor="start" x="40" y="4.680000000000001" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">अन्य</text>
+            <g class="layers" style="opacity: 1;">
+              <g class="legendfill"/>
+              <g class="legendlines"/>
+              <g class="legendsymbols">
+                <g class="legendpoints">
+                  <path class="legendundefined" d="M6,6H-6V-6H6Z" transform="translate(20,0)" style="stroke-width: 0.5px; fill: rgb(152, 152, 152); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                </g>
+              </g>
+            </g>
+            <rect class="legendtoggle" x="0" y="-9.5" width="292.390625" height="19" style="fill: rgb(0, 0, 0); fill-opacity: 0;"/>
+          </g>
+          <g class="traces" transform="translate(0,33.5)" style="opacity: 1;">
+            <text class="legendtext" text-anchor="start" x="40" y="4.680000000000001" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">संघीय समाजवादी फोरम, नेपाल</text>
+            <g class="layers" style="opacity: 1;">
+              <g class="legendfill"/>
+              <g class="legendlines"/>
+              <g class="legendsymbols">
+                <g class="legendpoints">
+                  <path class="legendundefined" d="M6,6H-6V-6H6Z" transform="translate(20,0)" style="stroke-width: 0.5px; fill: rgb(66, 154, 237); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                </g>
+              </g>
+            </g>
+            <rect class="legendtoggle" x="0" y="-9.5" width="292.390625" height="19" style="fill: rgb(0, 0, 0); fill-opacity: 0;"/>
+          </g>
+          <g class="traces" transform="translate(0,52.5)" style="opacity: 1;">
+            <text class="legendtext" text-anchor="start" x="40" y="4.680000000000001" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">राष्ट्रिय प्रजातन्त्र पार्टी</text>
+            <g class="layers" style="opacity: 1;">
+              <g class="legendfill"/>
+              <g class="legendlines"/>
+              <g class="legendsymbols">
+                <g class="legendpoints">
+                  <path class="legendundefined" d="M6,6H-6V-6H6Z" transform="translate(20,0)" style="stroke-width: 0.5px; fill: rgb(247, 152, 12); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                </g>
+              </g>
+            </g>
+            <rect class="legendtoggle" x="0" y="-9.5" width="292.390625" height="19" style="fill: rgb(0, 0, 0); fill-opacity: 0;"/>
+          </g>
+          <g class="traces" transform="translate(0,71.5)" style="opacity: 1;">
+            <text class="legendtext" text-anchor="start" x="40" y="4.680000000000001" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">नेपाल कम्युनिष्ट पार्टी (माओवादी केन्द्र)</text>
+            <g class="layers" style="opacity: 1;">
+              <g class="legendfill"/>
+              <g class="legendlines"/>
+              <g class="legendsymbols">
+                <g class="legendpoints">
+                  <path class="legendundefined" d="M6,6H-6V-6H6Z" transform="translate(20,0)" style="stroke-width: 0.5px; fill: rgb(140, 92, 166); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                </g>
+              </g>
+            </g>
+            <rect class="legendtoggle" x="0" y="-9.5" width="292.390625" height="19" style="fill: rgb(0, 0, 0); fill-opacity: 0;"/>
+          </g>
+          <g class="traces" transform="translate(0,90.5)" style="opacity: 1;">
+            <text class="legendtext" text-anchor="start" x="40" y="4.680000000000001" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">नेपाल कम्युनिष्ट पार्टी (एकीकृत मार्क्सवादी-लेनिनवादी)</text>
+            <g class="layers" style="opacity: 1;">
+              <g class="legendfill"/>
+              <g class="legendlines"/>
+              <g class="legendsymbols">
+                <g class="legendpoints">
+                  <path class="legendundefined" d="M6,6H-6V-6H6Z" transform="translate(20,0)" style="stroke-width: 0.5px; fill: rgb(235, 55, 42); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                </g>
+              </g>
+            </g>
+            <rect class="legendtoggle" x="0" y="-9.5" width="292.390625" height="19" style="fill: rgb(0, 0, 0); fill-opacity: 0;"/>
+          </g>
+          <g class="traces" transform="translate(0,109.5)" style="opacity: 1;">
+            <text class="legendtext" text-anchor="start" x="40" y="4.680000000000001" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 12px; fill: rgb(42, 63, 95); fill-opacity: 1; white-space: pre;">नेपाली काँग्रेस</text>
+            <g class="layers" style="opacity: 1;">
+              <g class="legendfill"/>
+              <g class="legendlines"/>
+              <g class="legendsymbols">
+                <g class="legendpoints">
+                  <path class="legendundefined" d="M6,6H-6V-6H6Z" transform="translate(20,0)" style="stroke-width: 0.5px; fill: rgb(33, 89, 57); fill-opacity: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;"/>
+                </g>
+              </g>
+            </g>
+            <rect class="legendtoggle" x="0" y="-9.5" width="292.390625" height="19" style="fill: rgb(0, 0, 0); fill-opacity: 0;"/>
+          </g>
+        </g>
+      </g>
+      <rect class="scrollbar" rx="20" ry="3" width="0" height="0" style="fill: rgb(128, 139, 164); fill-opacity: 1;" x="0" y="0"/>
+    </g>
+    <g class="g-gtitle">
+      <text class="gtitle" x="350" y="75" text-anchor="middle" dy="0.7em" style="font-family: 'Open Sans', verdana, arial, sans-serif; font-size: 17px; fill: rgb(42, 63, 95); opacity: 1; font-weight: normal; white-space: pre;">विभिन्न राजनीतिक दलहरुलाई वडा अध्यक्ष चुनावमा जम्मा प्राप्त मत</text>
+    </g>
+    <g class="g-xtitle"/>
+    <g class="g-x2title"/>
+    <g class="g-ytitle"/>
+    <g class="g-y2title"/>
+  </g>
+</svg>
