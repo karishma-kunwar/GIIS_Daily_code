@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* @font-face {
+			font-family: 'Mukta';
+			src: url(https://fonts.gstatic.com/s/mukta/v13/iJWHBXyXfDDVXbEOjGmc8WD07oB-98o.woff2) format('woff2');
+			unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+		}
+		* :not(i) {
+			font-family: Mukta
+		} */
+        footer p{
+            text-align: center;
+            color: #9f9f9f;
+            font-size: 14px;
+            margin-top:5px;
+
+        }
+    </style>
+    <!-- <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .chartMenu {
+        width: 100vw;
+        height: 40px;
+        background: #1A1A1A;
+        color: rgba(255, 26, 104, 1);
+      }
+      .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .chartCard {
+        width: 100vw;
+        height: calc(100vh - 40px);
+        background: rgba(255, 26, 104, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .chartBox {
+        width: 700px;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 3px rgba(255, 26, 104, 1);
+        background: white;
+      }
+    </style> -->
+</head>
+
+<body>
+    <!-- <div class="chartMenu">
+        <p>स्थानीय निर्वाचनको उम्मेदवारीमा महिलाहरुको प्रतिनिधित्व: २०७४, २०७९ </p>
+    </div> -->
+    <div class="chartCard">
+        <div class="chartBox">
+            <canvas id="myChart" style="height: 90vh ; width:95vw ; overflow:hidden"></canvas>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js"
+        integrity="sha512-R/QOHLpV1Ggq22vfDAWYOaMd5RopHrJNMxi8/lJu8Oihwi4Ho4BRFeiMiCefn9rasajKjnx9/fTQ/xkWnkDACg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        // setup 
+        const data = {
+            labels: ['अध्यक्ष/प्रमुख', 'उपाध्यक्ष/उपप्रमुख', 'वडा अध्यक्ष'],
+            datasets: [{
+                label: '२०७४',
+                data: [6.7, 73.3, 3.0], //the more data set you have the bar will be created
+                backgroundColor: [
+                    'rgba(243, 146, 176, 1)',
+                    'rgba(243, 146, 176, 1)',
+                    'rgba(243, 146, 176, 1)'
+
+                ],
+                // borderColor: [
+                //     'rgb(186,221,210)',
+                //     'rgb(186,221,210)',
+                //     'rgb(186,221,210)'
+
+                // ],
+                borderWidth: 1,
+                datalabels : {
+                    color : 'black',
+                    anchor : 'end',
+                    align : 'top',
+                    offset : 2
+                }
+            }, {
+                label: '२०७९',
+                data: [6.1, 74.5, 2.9], //the more data set you have the bar will be created
+                backgroundColor: [
+                    'rgb(231, 40, 99)',
+                    'rgb(231, 40, 99)',
+                    'rgb(231, 40, 99)'
+
+                ],
+                // borderColor: [
+                //     'rgb(231, 40, 99)',
+                //     'rgb(231, 40, 99)',
+                //     'rgb(231, 40, 99)',
+                // ],
+                borderWidth: 1,
+                datalabels: {
+                    color: 'black',
+                    anchor: 'end',
+                    align: 'top',
+                    offset : 2
+                }
+            },]
+        };
+        const plugin = {
+            id: 'custom_canvas_background_color',
+            beforeDraw: (myChart) => {
+                const ctx = myChart.canvas.getContext('2d');
+                ctx.save();
+                ctx.globalCompositeOperation = 'destination-over';
+                ctx.fillStyle = 'lightGreen';
+                ctx.fillRect(0, 0, myChart.width, myChart.height);
+                ctx.restore(myChart.width);
+  }
+};
+
+        // config 
+        const config = {
+            type: 'bar',
+            data,
+            plugins : [plugin],
+            options: {
+                plugins: {
+                    legend: { //to position ledgend of the chart
+                        position: 'right',
+                        align: 'start'
+                    },
+
+                    datalabels: {
+                        formatter: (value, context) => {
+                            const percetageValue = value
+
+                            return percetageValue + "%"
+                            
+                        }
+                    }
+                                         
+
+
+                },
+                responsive: false, 
+                
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function (value, index) {
+                                console.log(this.getLabelForValue(value))
+                            }
+
+                        },
+                        grid: {
+                            display: false
+
+                        }
+                    }
+
+                }
+            },
+            plugins: [ChartDataLabels] //to register the data label plugin to show the numbeers in the bar chart
+        };
+
+        // render init block
+        const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+    </script>
+<footer>
+    <p style="text-align: center">स्रोत: निर्वाचन आयोग    |    स्थानीय तह निर्वाचन २०७४    |    © अनलाइनखबर</p>
+</footer>
+</body>
+
+</html>
